@@ -1,4 +1,4 @@
-# Data Engineering Daily Work Log
+# Data Engineering Weekly Work Log
 
 This repository is a collection of the day-to-day tasks, projects, and processes I work on as a **Data Engineer**. It serves as a reference for best practices, tools, workflows, and techniques used in data engineering.
 
@@ -6,7 +6,7 @@ This repository is a collection of the day-to-day tasks, projects, and processes
 
 - [Overview](#overview)
 - [Tools & Technologies](#tools--technologies)
-- [Daily Logs](#daily-logs)
+- [Weekly Logs](#weekly-logs)
 - [Key Projects](#key-projects)
 - [Best Practices](#best-practices)
 - [Learning Resources](#learning-resources)
@@ -29,7 +29,7 @@ In my day-to-day work, I primarily use the following tools and technologies:
 - **Database Management**: Oracle, MySQL, PostgreSQL
 - **Other**: Docker, Terraform, Jenkins, Kafka, etc.
 
-## Daily Logs
+## Weekly Logs
 
 Here, I document the key tasks, challenges, and solutions I encounter on a day-to-day basis. Each log entry contains the date, the key tasks worked on, and links to relevant code or processes.
 
