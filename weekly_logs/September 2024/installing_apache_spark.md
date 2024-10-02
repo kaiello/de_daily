@@ -69,4 +69,8 @@ gpg --fingerprint 0A2D660358B6F6F8071FD16F6606986CF5A8447C
 ```
 
 ## Conclusion
-By following these steps, you’ve successfully installed Apache Spark and verified its authenticity using both SHA-512 checksums and PGP signatures.
+By following these steps, you’ve successfully installed Apache Spark and verified are able to check the authenticity using both SHA-512 checksums and PGP signatures.
+
+For more information on verifying Apache software releases, visit the [official Apache verification guide](https://www.apache.org/info/verification.html).
+
+Most Apache HTTP Server developers have signed each other's keys, typically through face-to-face verification. As a result, to join the web of trust, you generally only need to verify one person within that network. (Tip: all the developers' keys are included in the KEYS file.) After running the `gpg --import KEYS.txt` command, you can search for the Apache developers using the `@apache.org` domain in their email addresses.
