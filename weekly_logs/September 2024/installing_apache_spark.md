@@ -75,20 +75,20 @@ For more information on verifying Apache software releases, visit the [official 
 
 Most Apache HTTP Server developers have signed each other's keys, typically through face-to-face verification. As a result, to join the web of trust, you generally only need to verify one person within that network. (Tip: all the developers' keys are included in the KEYS file.) After running the `gpg --import KEYS.txt` command, you can search for the Apache developers using the `@apache.org` domain in their email addresses.
 
-# Step 5: Adding Spark to the System's PATH Variable on Windows
+## Step 5: Adding Spark to the System's PATH Variable on Windows
 
-## Step 5.1: Open System Properties
+### Step 5.1: Open System Properties
 - Press **Win + X** and select **System**.
 - In the window that opens, click **Advanced system settings** on the left.
 - In the **System Properties** window, click the **Environment Variables** button near the bottom.
 
-## Step 5.2: Add `SPARK_HOME` Environment Variable
+### Step 5.2: Add `SPARK_HOME` Environment Variable
 - In the **Environment Variables** window, under **System variables**, click **New**.
 - In the **Variable name** field, enter `SPARK_HOME`.
 - In the **Variable value** field, enter the path to your Spark installation directory (for example, `C:\\spark\\spark-3.5.3-bin-hadoop3`).
 - Click **OK** to save.
 
-## Step 5.3: Add Spark to the PATH Variable
+### Step 5.3: Add Spark to the PATH Variable
 - In the **Environment Variables** window, under **System variables**, scroll to find the **Path** variable and select it. Then click **Edit**.
 - In the **Edit Environment Variable** dialog, click **New**.
 - Add the path to Spark's `bin` folder, which is inside the directory you installed Spark into. For example:
@@ -99,10 +99,10 @@ Most Apache HTTP Server developers have signed each other's keys, typically thro
 
 - Click **OK** to save.
 
-## Step 5.4: Restart Command Prompt or Git Bash
+### Step 5.4: Restart Command Prompt or Git Bash
 - After modifying the environment variables, restart any open terminal windows (Command Prompt, Git Bash, etc.) for the changes to take effect.
 
-## Step 5.5: Verify the Installation
+### Step 5.5: Verify the Installation
  Once you've updated your PATH, you can verify that Spark has been successfully added by opening a new Command Prompt or Git Bash window and running:
 
     ```bash
